@@ -1530,3 +1530,27 @@ footer {
         margin-bottom: 15px;
     }
 }
+
+
+.message-type {
+    margin: 20px 0;
+}
+
+.message-type p {
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.message-type label {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.message-type input {
+    width: auto;
+    margin: 0;
+    accent-color: #7654a3;
+}
