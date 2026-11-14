@@ -1519,3 +1519,14 @@ footer {
     object-fit: cover;
     display: block;
 }
+
+
+/* Smaller avatar on mobile */
+
+@media (max-width: 768px) {
+    .avatar-image {
+        width: 130px;
+        height: 130px;
+        margin-bottom: 15px;
+    }
+}
