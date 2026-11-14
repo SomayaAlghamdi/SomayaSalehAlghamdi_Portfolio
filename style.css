@@ -629,7 +629,7 @@ code {
     margin: 17px 0 6px;
 }
 
-.form-panel input:not([type=hidden]),.form-panel textarea {
+.form-panel input:not([type="hidden"]):not([type="radio"]),.form-panel textarea {
     width: 100%;
     padding: 13px 14px;
     border: 1px solid #d9d1e6;
@@ -1536,7 +1536,7 @@ footer {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    gap: 15px;
+    gap: 12px;
     margin: 20px 0;
 }
 
@@ -1545,16 +1545,16 @@ footer {
     font-weight: 600;
 }
 
-.message-type label {
+.form-panel .message-type label {
     display: inline-flex;
     align-items: center;
-    gap: 8px;
+    gap: 5px;
     width: auto;
-    margin-right: 20px;
+    margin: 0;
     cursor: pointer;
 }
 
-.message-type input[type="radio"] {
+.form-panel .message-type input[type="radio"] {
     width: 16px;
     height: 16px;
     padding: 0;
